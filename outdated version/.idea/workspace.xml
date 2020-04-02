@@ -6,7 +6,19 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ad5008c-242d-45bf-b052-a2292ce57079" name="Default Changelist" comment="" />
+    <list default="true" id="6ad5008c-242d-45bf-b052-a2292ce57079" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../maven version/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven version/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven version/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven version/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven version/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven version/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven version/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven version/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven version/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven version/lib/javax.transaction.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven version/src/main/java/web/ConFirmOrderServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../maven version/src/main/java/web/ConFirmOrderServlet.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +54,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -50,12 +65,13 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1SEs5fJB4dktRaonDLEghvmzrc8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.1475" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -178,10 +194,22 @@
       <workItem from="1572166238767" duration="12464000" />
       <workItem from="1572183697418" duration="4251000" />
       <workItem from="1572188703548" duration="230000" />
+      <workItem from="1585817346784" duration="1030000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

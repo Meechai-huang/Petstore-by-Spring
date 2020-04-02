@@ -1,6 +1,6 @@
 package web;
 
-import org.apache.log4j.Logger;
+//import org.apache.log4j.Logger;
 import domain.Account;
 import domain.Cart;
 import domain.CartItem;
@@ -36,11 +36,11 @@ public class ConFirmOrderServlet extends HttpServlet {
             CartItem cartItem = (CartItem) cartItems.next();
             cartService.removeCartItem(cartItem, account);
         }
-
-        if(account != null) {
-            Logger logger = Logger.getLogger(CategoryServlet.class);
-            logger.info(account.getUsername() + "生成订单" + order.getOrderId());
-        }
+//
+//        if(account != null) {
+//            Logger logger = Logger.getLogger(CategoryServlet.class);
+//            logger.info(account.getUsername() + "生成订单" + order.getOrderId());
+//        }
         request.getRequestDispatcher(VIEW_ORDER).forward(request, response);
     }
 }

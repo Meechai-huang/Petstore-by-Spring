@@ -3,9 +3,9 @@ import javax.xml.stream.events.Comment;
 import java.sql.*;
 public class DBUtil {
     private static String driverString = "com.mysql.cj.jdbc.Driver";
-    private static String connectionString = "jdbc:mysql://localhost:3306/petstore?serverTimezone=UTC";
+    private static String connectionString = "jdbc:mysql://localhost:3306/mypetstore?serverTimezone=UTC";
     private static String username = "root";
-    private static String password = "123456";
+    private static String password = "";
 
     public static Connection getConnection() throws Exception {
         Connection connection = null;

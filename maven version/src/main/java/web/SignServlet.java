@@ -1,6 +1,6 @@
 package web;
 
-import org.apache.log4j.Logger;
+//import org.apache.log4j.Logger;
 import domain.Account;
 import service.AccountService;
 
@@ -36,8 +36,8 @@ public class SignServlet extends HttpServlet {
             request.setAttribute("msg", msg);
             request.getRequestDispatcher(SIGNON).forward(request, response);
         } else {
-           Logger logger = Logger.getLogger(SignServlet.class);
-           logger.info(account.getUsername() + "用户登录");
+//           Logger logger = Logger.getLogger(SignServlet.class);
+//           logger.info(account.getUsername() + "用户登录");
             session.setAttribute("account", account);
             request.getRequestDispatcher(MAIN).forward(request,response);
         }

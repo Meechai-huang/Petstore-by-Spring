@@ -1,6 +1,6 @@
 package web;
 
-import org.apache.log4j.Logger;
+//import org.apache.log4j.Logger;
 import domain.Account;
 import domain.Cart;
 import domain.Item;
@@ -34,9 +34,9 @@ public class RemoveItemFromCartServlet extends HttpServlet {
             session.setAttribute("msg", "Attempted to remove null CartItem from Cart.");
             request.getRequestDispatcher(ERROR).forward(request, response);
         }
-
-        Logger logger = Logger.getLogger(RemoveItemFromCartServlet.class);
-        logger.info(account.getUsername() + "移除物品" + item.getItemId());
+//
+//        Logger logger = Logger.getLogger(RemoveItemFromCartServlet.class);
+//        logger.info(account.getUsername() + "移除物品" + item.getItemId());
 
         request.getRequestDispatcher(CART).forward(request, response);
     }

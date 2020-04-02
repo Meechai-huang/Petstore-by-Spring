@@ -1,6 +1,6 @@
 package web;
 
-import org.apache.log4j.Logger;
+//import org.apache.log4j.Logger;
 import domain.Account;
 import domain.Category;
 import domain.Product;
@@ -31,10 +31,10 @@ public class CategoryServlet extends HttpServlet {
         session.setAttribute("productList",productList);
 
         Account account = (Account) session.getAttribute("account");
-        if(account != null) {
-            Logger logger = Logger.getLogger(CategoryServlet.class);
-            logger.info(account.getUsername() + "浏览" + categoryId);
-        }
+//        if(account != null) {
+//            Logger logger = Logger.getLogger(CategoryServlet.class);
+//            logger.info(account.getUsername() + "浏览" + categoryId);
+//        }
 
          request.getRequestDispatcher(Category).forward(request,response);
     }

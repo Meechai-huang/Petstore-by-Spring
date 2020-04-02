@@ -1,6 +1,6 @@
 package web;
 
-import org.apache.log4j.Logger;
+//import org.apache.log4j.Logger;
 import domain.Account;
 
 import javax.servlet.ServletException;
@@ -19,9 +19,9 @@ public class SignOffServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession();
         session.removeAttribute("cart");
-
-        Logger logger = Logger.getLogger(SignOffServlet.class);
-        logger.info(((Account)session.getAttribute("account")).getUsername() + "用户下线");
+//
+//        Logger logger = Logger.getLogger(SignOffServlet.class);
+//        logger.info(((Account)session.getAttribute("account")).getUsername() + "用户下线");
 
         session.removeAttribute("account");
         request.getRequestDispatcher(MAIN).forward(request, response);
